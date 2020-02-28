@@ -18,7 +18,7 @@ export default class ItemList extends React.Component {
 
       return (
         <li className="list-group-item" key={id}
-            onClick={() => onItemSelected(parseInt(id))}>
+            onClick={() => onItemSelected(id)}>
           {label}
         </li>
       );
